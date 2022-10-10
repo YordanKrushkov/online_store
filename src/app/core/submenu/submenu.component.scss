@@ -1,0 +1,28 @@
+.submenu {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: -5px;
+
+  ul {
+    list-style: none;
+    color: white;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    padding: 10px;
+    margin: 0;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    width: calc(100% / 9);
+    text-align: center;
+
+    &:hover {
+      cursor: pointer;
+      background-color: white;
+      color: rgba(0, 0, 0, 0.6);
+    }
+  }
+}

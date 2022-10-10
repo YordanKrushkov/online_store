@@ -1,0 +1,14 @@
+.page-wrapper {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  img {
+    width: 80%;
+    height: 80%;
+  }
+}

@@ -1,0 +1,10 @@
+<div class="promo-card">
+  <header>
+    <img [src]="getUrl()" alt="clothes">
+  </header>
+
+  <body>
+    <h2>{{singlePromo.title}}</h2>
+    <button (click)="onClick(singlePromo.id)">Shop now</button>
+  </body>
+</div>

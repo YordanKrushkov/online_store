@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.catalogue {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.title {
+  text-align: center;
+  color: $base-color;
+  text-transform: uppercase;
+  font-size: 36px;
+  margin: 40px 0;
+}

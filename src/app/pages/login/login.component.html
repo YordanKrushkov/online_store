@@ -1,0 +1,15 @@
+<div class="formWrapper">
+  <form #form="ngForm">
+    <h1>LogIn</h1>
+    <div class="inputWrapper">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" ngModel required>
+    </div>
+    <div class="inputWrapper">
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" ngModel required>
+    </div>
+    <button type="submit">LogIn</button>
+  </form>
+</div>
+{{form.value | json}}

@@ -1,0 +1,48 @@
+@import '../../styles/variables.scss';
+
+.formWrapper {
+  width: 40%;
+  margin: 10% auto;
+  height: 600px;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+
+  h1 {
+    text-align: center;
+  }
+
+  form,
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  form {
+    height: 90%;
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  div {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  input,
+  button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+  }
+
+  button {
+    background-color: $base-color;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+}

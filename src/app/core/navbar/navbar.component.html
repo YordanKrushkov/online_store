@@ -1,0 +1,9 @@
+<div class="navigation">
+  <nav>
+    <a *ngFor="let route of routes" routerLink={{route.path}}>{{route.name}}</a>
+  </nav>
+  <nav>
+    <a *ngFor="let route of leftRoutes" routerLink={{route.path}}>{{route.name}}</a>
+  </nav>
+
+</div>

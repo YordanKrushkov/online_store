@@ -1,0 +1,28 @@
+<div id="home">
+  <img src="../../../assets/hero.jpg" />
+  <div id="overlay"></div>
+  <div class="wrapper">
+    <h1>Hello, munchkin...</h1>
+    <div class="btnWrapper">
+      <button>New collections</button>
+      <button>All collections</button>
+    </div>
+  </div>
+</div>
+<app-submenu></app-submenu>
+<div class="promoBanner">
+  <div class="text-wrapper">
+    <h1>Winter is comming...</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque consequuntur quam nihil facilis veniam itaque
+      tempora debitis maiores ratione porro? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, enim.
+    </p>
+    <button>Shop now</button>
+  </div>
+  <img src="../../../assets/promo.jpg" alt="promo">
+</div>
+<div class="promo-wrapper">
+  <app-promo-card *ngFor="let singlePromo of promo" [singlePromo]="singlePromo"></app-promo-card>
+  <app-promo-card *ngFor="let singlePromo of promo" [singlePromo]="singlePromo"></app-promo-card>
+  <app-promo-card *ngFor="let singlePromo of promo" [singlePromo]="singlePromo"></app-promo-card>
+</div>
+<app-footer></app-footer>
